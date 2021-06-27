@@ -26,7 +26,7 @@ class BackgroundPainter extends CustomPainter {
           ..color = Colors.orange.shade400
           ..style = PaintingStyle.fill,
         linePaint = Paint()
-          ..color = Colors.orange[300]
+          ..color = Colors.white
           ..style = PaintingStyle.stroke
           ..strokeWidth = 4;
 
@@ -70,8 +70,8 @@ class BackgroundPainter extends CustomPainter {
         lerpDouble(0, size.height / 3, 1),
       ),
       Point(
-        lerpDouble(size.width / 2, size.height * 0.5, 1),
-        lerpDouble(size.width / 2, size.height, 0.5),
+        lerpDouble(size.width / 2, size.height * 0.6, 1),
+        lerpDouble(size.width / 2, size.height, 0.6),
       ),
       Point(
         size.width,

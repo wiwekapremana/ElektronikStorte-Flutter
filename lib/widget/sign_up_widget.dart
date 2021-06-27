@@ -21,10 +21,10 @@ class SignUpWidget extends StatelessWidget {
               margin: EdgeInsets.symmetric(horizontal: 20),
               width: 175,
               child: Text(
-                'Welcome Back To MyApp',
+                'ELEKTRONIK STORE',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 30,
+                  fontSize: 28,
                   fontWeight: FontWeight.bold,
                 ),
               ),
